@@ -3,20 +3,23 @@ import "../App.css";
 export default function Deadline() {
   const [start, setStart] = useState();
   const [end, setEnd] = useState();
-  const [today, setToday] = useState();
   const [resultDate, setResultDate] = useState(0);
   const [errorMessage, setErrorMessage] = useState("");
-  let dateToday = new Date();
+  // const [today, setToday] = useState();
+  // let dateToday = new Date();
 
   const calculate = () => {
     let dateStart = new Date(start);
     let dateEnd = new Date(end);
     let diffTime = 0;
-    let diffTimeToday = 0;
+    // let diffTimeToday = 0;
+    // let resultToday = 0;
+
     let result = 0;
-    let resultToday = 0;
     if (start == null && end == null) {
-      setErrorMessage("Please enter both start and end dates.");
+      setErrorMessage("Please enter both start and end dates!");
+    } else if (start > end) {
+      setErrorMessage("Start date cannot be after end date!");
     } else {
       diffTime = dateEnd.getTime() - dateStart.getTime();
       result = diffTime / (1000 * 60 * 60 * 24);
