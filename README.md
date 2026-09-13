@@ -1,5 +1,10 @@
 <h1><a href="https://numdypixe1.github.io/deadline/">Deadline</a></h1>
 
+<h2>Get started</h2>
+```bash
+npm run dev
+```
+
 The website calculates the duration from start to end.
 ![screencapture-localhost-5173-2025-02-15-00_10_43](https://github.com/user-attachments/assets/bd79173e-d2c2-43d9-b4ca-f3aa97f7fe54)
 
