@@ -3,17 +3,15 @@
 > My first hands-on React.js project focused on mastering component state management.
 > <br>โปรเจกต์เริ่มต้นพัฒนาทักษะ React.js ตัวแรก ที่สร้างขึ้นเพื่อเรียนรู้และฝึกฝนการจัดการ State Management
 
+## Screenshot
+![screencapture-localhost-5173-2025-02-15-00_10_43](https://github.com/user-attachments/assets/bd79173e-d2c2-43d9-b4ca-f3aa97f7fe54)
+Timeline Duration Calculator Web App
 
 ## Get started
 
 ```bash
 npm run dev
 ```
-
-## Screenshot
-![screencapture-localhost-5173-2025-02-15-00_10_43](https://github.com/user-attachments/assets/bd79173e-d2c2-43d9-b4ca-f3aa97f7fe54)
-
-
 <!--# React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
