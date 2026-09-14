@@ -1,4 +1,7 @@
 # <a href="https://numdypixe1.github.io/deadline/">Deadline</a> 
+> [!NOTE]
+> My first hands-on React.js project focused on mastering component state management. / โปรเจกต์เริ่มต้นพัฒนาทักษะ React.js ตัวแรก ที่สร้างขึ้นเพื่อเรียนรู้และฝึกฝนการจัดการ State Management
+
 
 ## Get started
 
